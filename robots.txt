@@ -1,0 +1,24 @@
+# robots.txt for AI Global
+
+User-agent: *
+Allow: /
+
+# Disallow admin or private directories (if any)
+# Disallow: /admin/
+
+# Allow all search engines to crawl
+Allow: /index.html
+Allow: /blog.html
+Allow: /post.html
+Allow: /about.html
+Allow: /contact.html
+
+# Sitemap location
+Sitemap: https://yoursite.com/sitemap.xml
+
+# Crawl-delay (optional - adjust as needed)
+# Crawl-delay: 10
+
+# Disallow specific user agents (if needed)
+# User-agent: BadBot
+# Disallow: /

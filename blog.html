@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse our collection of AI articles, tutorials, and guides. Learn about machine learning, AI tools, ethics, and the latest developments in artificial intelligence.">
+    <meta name="keywords" content="AI blog, artificial intelligence articles, machine learning tutorials, AI guides">
+    
+    <title>Blog - AI Global | AI Articles, Tutorials & Guides</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="canonical" href="https://yoursite.com/blog.html">
+</head>
+<body>
+    <!-- Cookie Consent Banner -->
+    <div id="cookieConsent" class="cookie-consent hidden">
+        <div class="cookie-consent-content">
+            <h3>Cookie Consent</h3>
+            <p>We use cookies to improve your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking "Accept All", you consent to our use of cookies. <a href="cookie-policy.html">Cookie Policy</a> | <a href="privacy-policy.html">Privacy Policy</a></p>
+            <div class="cookie-buttons">
+                <button id="acceptCookies" class="btn btn-primary">Accept All</button>
+                <button id="rejectCookies" class="btn btn-secondary">Reject Non-Essential</button>
+                <button id="manageCookies" class="btn btn-tertiary">Manage Preferences</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="index.html">AI Global</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Blog</h1>
+            <p>Explore our latest articles on AI, machine learning, and emerging technologies</p>
+        </div>
+    </section>
+
+    <!-- Blog Filters -->
+    <section class="blog-filters">
+        <div class="container">
+            <div class="filter-bar">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Search articles..." aria-label="Search articles">
+                    <button id="searchBtn" aria-label="Search">Search</button>
+                </div>
+                <div class="category-filter">
+                    <label for="categorySelect">Category:</label>
+                    <select id="categorySelect">
+                        <option value="all">All Categories</option>
+                        <option value="tutorials">Tutorials</option>
+                        <option value="reviews">Tool Reviews</option>
+                        <option value="news">AI News</option>
+                        <option value="ethics">Ethics</option>
+                        <option value="guides">Guides</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Posts List -->
+    <section class="blog-list">
+        <div class="container">
+            <div class="posts-list" id="postsList">
+                <!-- Posts will be loaded dynamically -->
+                <article class="post-card-horizontal">
+                    <div class="post-image">
+                        <img src="images/placeholder-1.jpg" alt="Machine Learning Basics" loading="lazy">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category">Tutorials</span>
+                        <h2><a href="post.html?id=1">Introduction to Machine Learning: A Beginner's Guide</a></h2>
+                        <p>Machine learning is transforming the way we interact with technology. This comprehensive guide walks you through the fundamentals of ML, helping you understand how machines learn from data and make intelligent decisions.</p>
+                        <div class="post-meta">
+                            <span class="post-author">By Sarah Chen</span>
+                            <span class="post-date">Dec 20, 2025</span>
+                            <span class="post-read-time">8 min read</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post-card-horizontal">
+                    <div class="post-image">
+                        <img src="images/placeholder-2.jpg" alt="AI Tools 2025" loading="lazy">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category">Reviews</span>
+                        <h2><a href="post.html?id=2">Top 10 AI Tools Every Developer Should Know in 2025</a></h2>
+                        <p>Discover the most powerful and practical AI tools that are revolutionizing software development. From intelligent code assistants to automated testing frameworks, these tools will significantly boost your productivity.</p>
+                        <div class="post-meta">
+                            <span class="post-author">By Michael Torres</span>
+                            <span class="post-date">Dec 18, 2025</span>
+                            <span class="post-read-time">12 min read</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post-card-horizontal">
+                    <div class="post-image">
+                        <img src="images/placeholder-3.jpg" alt="AI Ethics" loading="lazy">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category">Ethics</span>
+                        <h2><a href="post.html?id=3">Understanding AI Ethics: Building Responsible Technology</a></h2>
+                        <p>As AI becomes more integrated into our daily lives, ethical considerations become crucial. Learn about the key principles of responsible AI development and why they matter for building a better future.</p>
+                        <div class="post-meta">
+                            <span class="post-author">By Dr. Emma Watson</span>
+                            <span class="post-date">Dec 15, 2025</span>
+                            <span class="post-read-time">10 min read</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post-card-horizontal">
+                    <div class="post-image">
+                        <img src="images/placeholder-4.jpg" alt="Neural Networks" loading="lazy">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category">Tutorials</span>
+                        <h2><a href="post.html?id=4">Neural Networks Explained: From Basics to Deep Learning</a></h2>
+                        <p>Dive deep into the world of neural networks and understand how they power modern AI applications. This tutorial breaks down complex concepts into easy-to-understand explanations with practical examples.</p>
+                        <div class="post-meta">
+                            <span class="post-author">By David Kim</span>
+                            <span class="post-date">Dec 12, 2025</span>
+                            <span class="post-read-time">15 min read</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post-card-horizontal">
+                    <div class="post-image">
+                        <img src="images/placeholder-5.jpg" alt="ChatGPT Guide" loading="lazy">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category">Guides</span>
+                        <h2><a href="post.html?id=5">Master ChatGPT: Advanced Tips and Tricks for Better Results</a></h2>
+                        <p>Unlock the full potential of ChatGPT with these advanced techniques. Learn how to craft better prompts, use context effectively, and get more accurate and useful responses from AI language models.</p>
+                        <div class="post-meta">
+                            <span class="post-author">By Jessica Liu</span>
+                            <span class="post-date">Dec 10, 2025</span>
+                            <span class="post-read-time">7 min read</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post-card-horizontal">
+                    <div class="post-image">
+                        <img src="images/placeholder-6.jpg" alt="AI in Healthcare" loading="lazy">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category">News</span>
+                        <h2><a href="post.html?id=6">How AI is Revolutionizing Healthcare in 2025</a></h2>
+                        <p>Explore the latest breakthroughs in AI-powered healthcare. From diagnostic tools to personalized treatment plans, discover how artificial intelligence is improving patient outcomes and transforming medical practice.</p>
+                        <div class="post-meta">
+                            <span class="post-author">By Dr. Robert Martinez</span>
+                            <span class="post-date">Dec 8, 2025</span>
+                            <span class="post-read-time">11 min read</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+                <button class="pagination-btn" disabled>Previous</button>
+                <span class="pagination-info">Page 1 of 5</span>
+                <button class="pagination-btn">Next</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>About AI Global</h4>
+                    <p>We are dedicated to making artificial intelligence accessible and understandable for everyone. Our mission is to provide high-quality, educational content that empowers people to learn and grow in the AI field.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                        <li><a href="cookie-policy.html">Cookie Policy</a></li>
+                        <li><a href="#" id="cookieSettings">Cookie Settings</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="#" aria-label="GitHub">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AI Global. All rights reserved.</p>
+                <p class="disclaimer">Disclaimer: Content is for educational purposes only. Always verify information independently.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/blog.js"></script>
+</body>
+</html>

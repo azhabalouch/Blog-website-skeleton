@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact AI Global - Get in touch with our team for questions, feedback, or collaboration opportunities.">
+    <meta name="keywords" content="contact AI Global, AI questions, feedback">
+    
+    <title>Contact Us - AI Global</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="canonical" href="https://yoursite.com/contact.html">
+</head>
+<body>
+    <!-- Cookie Consent Banner -->
+    <div id="cookieConsent" class="cookie-consent hidden">
+        <div class="cookie-consent-content">
+            <h3>Cookie Consent</h3>
+            <p>We use cookies to improve your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking "Accept All", you consent to our use of cookies. <a href="cookie-policy.html">Cookie Policy</a> | <a href="privacy-policy.html">Privacy Policy</a></p>
+            <div class="cookie-buttons">
+                <button id="acceptCookies" class="btn btn-primary">Accept All</button>
+                <button id="rejectCookies" class="btn btn-secondary">Reject Non-Essential</button>
+                <button id="manageCookies" class="btn btn-tertiary">Manage Preferences</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="index.html">AI Global</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2>Send Us a Message</h2>
+                    <p>Have a question, feedback, or collaboration proposal? Fill out the form below and we'll get back to you within 48 hours.</p>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required aria-label="Full name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required aria-label="Email address">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required aria-label="Subject">
+                                <option value="">Select a subject</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="technical">Technical Issue</option>
+                                <option value="content">Content Suggestion</option>
+                                <option value="collaboration">Collaboration Opportunity</option>
+                                <option value="advertising">Advertising Inquiry</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required aria-label="Message"></textarea>
+                        </div>
+
+                        <!-- Simple Math CAPTCHA -->
+                        <div class="form-group captcha">
+                            <label for="captcha">Security Check: What is <span id="captchaQuestion">5 + 3</span>? *</label>
+                            <input type="text" id="captcha" name="captcha" required aria-label="Captcha answer">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="privacy" name="privacy" required>
+                                I agree to the <a href="privacy-policy.html" target="_blank">Privacy Policy</a> *
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        
+                        <div class="form-message" id="formMessage"></div>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h2>Other Ways to Reach Us</h2>
+                    
+                    <div class="contact-info-item">
+                        <h3>Email</h3>
+                        <p><a href="mailto:contact@aiglobal.com">contact@aiglobal.com</a></p>
+                        <p class="info-note">We typically respond within 48 hours during business days.</p>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <h3>Response Time</h3>
+                        <p>Monday - Friday: 24-48 hours</p>
+                        <p>Weekends & Holidays: 48-72 hours</p>
+                        <p class="info-note">We appreciate your patience and will respond as quickly as possible.</p>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <h3>Follow Us</h3>
+                        <div class="social-links-vertical">
+                            <a href="#" target="_blank">Twitter</a>
+                            <a href="#" target="_blank">LinkedIn</a>
+                            <a href="#" target="_blank">GitHub</a>
+                            <a href="#" target="_blank">YouTube</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <h3>Frequently Asked Questions</h3>
+                        <p>Before reaching out, you might find answers to common questions in our <a href="blog.html">blog</a> or <a href="about.html">about page</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>About AI Global</h4>
+                    <p>We are dedicated to making artificial intelligence accessible and understandable for everyone. Our mission is to provide high-quality, educational content that empowers people to learn and grow in the AI field.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                        <li><a href="cookie-policy.html">Cookie Policy</a></li>
+                        <li><a href="#" id="cookieSettings">Cookie Settings</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="#" aria-label="GitHub">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AI Global. All rights reserved.</p>
+                <p class="disclaimer">Disclaimer: Content is for educational purposes only. Always verify information independently.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>
